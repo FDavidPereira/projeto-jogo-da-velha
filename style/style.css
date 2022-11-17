@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+body{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.438)
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F480";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F47D";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
